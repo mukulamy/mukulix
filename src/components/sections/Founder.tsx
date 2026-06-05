@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { BadgeCheck, Users, GraduationCap, Cloud, Linkedin } from 'lucide-react';
 import { fireContactIntent } from '@/lib/intent';
-import mukulImage from '@/assets/images/mukul-photo.jpg';
+import mukulImage from '/mukul-photo.jpg';
 
 const credentials = [
   { label: 'Google Cloud Certified', icon: Cloud, color: '#5B8EF5', bg: 'rgba(91,142,245,0.1)' },

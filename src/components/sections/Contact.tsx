@@ -166,7 +166,7 @@ export default function Contact() {
                       <FormItem>
                         <FormLabel className="text-xs text-white/60">Full Name</FormLabel>
                         <FormControl>
-                          <Input placeholder="Hansika Agrawal" data-testid="input-contact-name"
+                          <Input placeholder="Hansika" data-testid="input-contact-name"
                             className="bg-white/[0.04] border-white/10 text-white placeholder-white/20 rounded-lg h-10" {...field} />
                         </FormControl>
                         <FormMessage />
@@ -180,7 +180,7 @@ export default function Contact() {
                       <FormItem>
                         <FormLabel className="text-xs text-white/60">Email Address</FormLabel>
                         <FormControl>
-                          <Input placeholder="you@company.com" data-testid="input-contact-email"
+                          <Input placeholder="hansika@ex.com" data-testid="input-contact-email"
                             className="bg-white/[0.04] border-white/10 text-white placeholder-white/20 rounded-lg h-10" {...field} />
                         </FormControl>
                         <FormMessage />
