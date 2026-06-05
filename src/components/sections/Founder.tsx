@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { BadgeCheck, Users, GraduationCap, Cloud, Linkedin } from 'lucide-react';
 import { fireContactIntent } from '@/lib/intent';
+import mukulImage from '@/assets/images/mukul-photo.jpg';
 
 const credentials = [
   { label: 'Google Cloud Certified', icon: Cloud, color: '#5B8EF5', bg: 'rgba(91,142,245,0.1)' },
@@ -59,7 +60,7 @@ export default function Founder() {
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-xl overflow-hidden flex-shrink-0"
                     style={{ border: '1px solid rgba(91,142,245,0.25)' }}>
-                    <img src="/mukul-photo.jpg" alt="Mukul Yadav"
+                    <img src={mukulImage} alt="Mukul Yadav"
                       className="w-full h-full object-cover object-top" />
                   </div>
                   <div>
